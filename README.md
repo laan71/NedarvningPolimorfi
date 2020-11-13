@@ -1,5 +1,5 @@
 # NedarvningPolimorfi
 
-- Udvid med flere slags varer (extends Grøsnag, extends Frugt)
-- Udvid med flere slags kategorier (sprut, blomster)
-- Generer en KLASSEDIAGRAM til din løsning
+- Udvid med flere slags varer (extends Grøntsag, extends Frugt)
+- Udvid med flere slags kategorier (f.eks kød, blomster)
+- Generer et KLASSEDIAGRAM til din løsning.
