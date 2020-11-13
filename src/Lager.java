@@ -36,16 +36,16 @@ public class Lager {
     public void antalVarer() {
     }
 
-     public void visVarer() {
+     public void visVarer() {                               // Level 2
          System.out.println(vareLager);
-     }                                                     // Level 2
+     }                                                     
 
-    public int antalApple() {
+    public int antalApple() {                               // Level 3
         return 0;
-    }                  // Level 3
+    }                  
 
-    public int antalAf(String type) {
+    public int antalAf(String type) {                       // Level 3
         return 0;
-    }          // Level 3
+    }          
 
 }
