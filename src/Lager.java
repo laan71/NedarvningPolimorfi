@@ -41,11 +41,13 @@ public class Lager {
      }                                                     // Level 2
 
     public int antalApple() {
+
         return 0;
-    }                  // Level 3
+    }                                                     // Level 3
 
     public int antalAf(String type) {
+
         return 0;
-    }          // Level 3
+    }                                                     // Level 3
 
 }
