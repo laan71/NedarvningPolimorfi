@@ -4,7 +4,8 @@ public class Lager {
 
     ArrayList<Varer> vareLager = new ArrayList<Varer>();
 
-    public void fyldOp() {                         // Level 1
+    public void fyldOp() {                                  // Level 1
+        // Første måde
         Apple a1 = new Apple();
         vareLager.add(a1);
 
@@ -22,20 +23,29 @@ public class Lager {
 
         Roses r1 = new Roses();
         vareLager.add(r1);
+
+        // Anden måde
+        vareLager.add(new Peas());
+        vareLager.add(new Peas());
+        vareLager.add(new Lilies());
+        vareLager.add(new Chicken());
+        vareLager.add(new Lilies());
+
     }
-    public int antalVarer() {
-        return 0; }                                      // Level 1
+
+    public void antalVarer() {
+    }
 
      public void visVarer() {
-
-     }                                                  // Level 2
+         System.out.println(vareLager);
+     }                                                     // Level 2
 
     public int antalApple() {
         return 0;
-    }                                                  // Level 3
+    }                  // Level 3
 
     public int antalAf(String type) {
         return 0;
-    }                                                 // Level 3
+    }          // Level 3
 
 }

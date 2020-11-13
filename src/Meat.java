@@ -1,13 +1,11 @@
 public class Meat extends Varer {
 
-  //  public int kgpris;
-  //  public boolean skalTilberedes;
 
     void tilbered() {
         System.out.println("Skal tilberedes");
     }
 
-    public void freeze() {
-
+    void coolDown() {
+        System.out.println("Kødet skal opbevares ved højst 5°C");
     }
 }

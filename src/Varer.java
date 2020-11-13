@@ -7,7 +7,7 @@ import java.util.Date;
  * 09/11/2020
  */
 
-public class Varer {
+public class Varer extends Lager {
 
     double stykpris;
     double kgpris;
@@ -18,8 +18,8 @@ public class Varer {
     boolean skalTilberedes = true;
     boolean freerange = true;
 
+
     void smidUd() {
         kanSælges = false;
     }
-
 }

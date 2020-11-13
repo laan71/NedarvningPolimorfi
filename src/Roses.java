@@ -4,5 +4,7 @@ public class Roses extends Flower {
 
     String country = "Netherlands";
     String sort = "Queen Elizabeth";
+    String color = "Yellow";
+    boolean needWater = true;
 
 }

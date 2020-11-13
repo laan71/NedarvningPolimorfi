@@ -4,4 +4,6 @@ public class Lilies extends Flower {
 
     String country = "Netherlands";
     String sort = "Madonna";
+    String color = "White";
+    boolean needWater = true;
 }
