@@ -10,8 +10,13 @@ import java.util.Date;
 public class Varer {
 
     double stykpris;
+    double kgpris;
+    double prisPrBundt;
+    double antalBlomsterPrBundt;
     Date holdbarhed;
     boolean kanSælges = true;
+    boolean skalTilberedes = true;
+    boolean freerange = true;
 
     void smidUd() {
         kanSælges = false;
